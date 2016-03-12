@@ -1,5 +1,5 @@
 # appium-adb-repl
-Simple REPL for using appium-adb commands from cli
+Simple REPL for playing with appium-adb
 
 #Install
 ```bash
