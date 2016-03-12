@@ -17,3 +17,5 @@ $ dbug ADB 1 device(s) connected
 $ [ { udid: '07042e0e13cca2d0', state: 'device' } ]
 $ appium-adb:
 ```
+
+Play with every command of [appium-adb](https://github.com/appium/appium-adb) 
