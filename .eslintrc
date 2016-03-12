@@ -4,9 +4,9 @@
     "node": true
   },
   "rules": {
-    "strict" : 0,
-    "no-unused-vars": 0,
-    "semi": 0,
-    "no-undef": 0
+    "strict" : 1,
+    "no-unused-vars": 1,
+    "semi": 1,
+    "no-undef": 1
   }
 }
