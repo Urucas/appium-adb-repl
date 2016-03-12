@@ -9,7 +9,8 @@
     "prepublish": "npm run build",
     "start": "./bin/index",
     "prestart": "npm run build",
-    "precommit" : "./node_modules/.bin/eslint ./lib"
+    "precommit" : "./node_modules/.bin/eslint ./lib",
+    "prepush" : "npm test"
   },
   "preferGlobal": true,
   "bin": {
