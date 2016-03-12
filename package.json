@@ -4,7 +4,7 @@
   "description": "appium-adb REPL",
   "main": "./bin/index",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel-core/register -t 15s",
+    "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel-core/register -t 15s -R nyan",
     "build": "./node_modules/babel-cli/bin/babel.js lib -d dist",
     "prepublish": "npm run build",
     "start": "./bin/index",
