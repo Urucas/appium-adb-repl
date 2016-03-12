@@ -1,8 +1,8 @@
 {
   "name": "appium-adb-repl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "appium-adb REPL",
-  "main": "./bin/index",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel-core/register -t 15s -R nyan",
     "build": "./node_modules/babel-cli/bin/babel.js lib -d dist",
@@ -12,7 +12,6 @@
     "precommit" : "./node_modules/.bin/eslint ./lib",
     "prepush" : "npm test"
   },
-  "preferGlobal": true,
   "bin": {
     "appium-adb-repl": "./bin/index"
   },
