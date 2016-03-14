@@ -24,13 +24,15 @@ $ appium-adb:
 ```javascript
 import repl from 'appium-adb-repl'
 repl()
+// ADB with options
+repl({opts:{remoteAdbPort:5554}})
 ```
 
 Use it with your own ```appium-adb``` release
 ```javascript
 import ADB from './build/index.js'
 import repl from 'appium-adb-repl'
-repl(ADB)
+repl({ADB: ADB})
 ```
 
 Play with every command of [appium-adb](https://github.com/appium/appium-adb) 
