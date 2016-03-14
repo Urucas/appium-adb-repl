@@ -1,6 +1,6 @@
 {
   "name": "appium-adb-repl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "appium-adb REPL",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "prepublish": "npm run build",
     "start": "./bin/index",
     "prestart": "npm run build",
-    "precommit" : "./node_modules/.bin/eslint ./lib",
-    "prepush" : "npm test"
+    "precommit": "./node_modules/.bin/eslint ./lib",
+    "prepush": "npm test"
   },
   "bin": {
     "appium-adb-repl": "./bin/index"
@@ -28,6 +28,7 @@
     "babel-plugin-transform-async-to-generator": "^6.7.0",
     "babel-plugin-transform-runtime": "^6.6.0",
     "babel-runtime": "^6.6.1",
+    "minimist": "^1.2.0",
     "promirepl": "^1.0.1",
     "repl": "^0.1.3"
   },
